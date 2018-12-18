@@ -11,7 +11,7 @@ from argparse import ArgumentParser
 __all__ = ['main']
 
 
-gfwlist_url = 'https://autoproxy-gfwlist.googlecode.com/svn/trunk/gfwlist.txt'
+gfwlist_url = 'https://bitbucket.org/gfwlist/gfwlist/raw/HEAD/gfwlist.txt'
 
 
 def parse_args():
@@ -155,4 +155,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
